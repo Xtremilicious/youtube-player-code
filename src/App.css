@@ -1,0 +1,81 @@
+.app{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+}
+.link-bar{
+  height: 15vh;
+  width: 100vw;
+  background: #282828 !important;
+}
+.title-text{
+  color: white;
+  font-size: 4vh;
+}
+
+.input-area{
+  height: 5vh;
+}
+.add-button{
+  height: 5vh;
+  border: none;
+  background: #DF013A;
+  color: white;
+}
+.player-container{
+  width: 100vw;
+  height: 85vh;
+}
+.player{
+  height: 85vh !important;
+  overflow: hidden;
+}
+.playlist-items{
+  height: 75vh !important;
+  background: #282828 !important;
+  color: white;
+  display: flex;
+  overflow-y: scroll;
+  flex-direction: column;
+}
+
+.video-element{
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+.play-pause{
+  width: 100%;
+  background: #DF013A;
+  height: 10vh;
+}
+.play{
+
+  border: none;
+  color: white;
+  background: transparent;
+  font-size: 2rem;
+  width: fit-content;
+}
+.fa{
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+.empty{
+  height: 85vh !important;
+  overflow: hidden;
+  background: #282828 !important;
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.del{
+  border: none;
+  background: transparent;
+  color: white;
+}
+.link-title{
+  font-size: 1.4rem;
+}
